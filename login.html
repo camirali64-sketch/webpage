@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="login-box">
+            <h1>Login</h1>
+            <p>Welcome back. Enter your details to continue.</p>
+            <form id="login-form">
+                <label for="gmail">Gmail</label>
+                <input type="email" id="gmail" name="gmail" placeholder="Enter your Gmail">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+
+                <button type="submit">Login</button>
+            </form>
+            <p id="login-message" class="form-message error-message"></p>
+            <p class="form-note">Do not have an account? <a href="signup.html">Sign up</a></p>
+        </section>
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>

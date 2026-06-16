@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="panel">
+            <h1>Logout</h1>
+            <p>End this session and return to the login page.</p>
+            <button class="danger" onclick="logout()">Logout</button>
+
+            <ul class="nav-list">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a class="active" href="logout.html">Logout</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <script>
+        function logout() {
+            alert("You have been logged out.");
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>

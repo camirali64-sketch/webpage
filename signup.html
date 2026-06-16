@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="login-box">
+            <h1>Sign Up</h1>
+            <p>Create a simple account. Your details will be saved in this browser.</p>
+
+            <form id="signup-form">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required>
+
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" name="email" placeholder="Enter your email" required>
+
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" name="password" placeholder="Create a password" required>
+
+                <button type="submit">Save Account</button>
+            </form>
+
+            <p id="save-message" class="form-message"></p>
+            <p class="form-note">Already have an account? <a href="login.html">Login</a></p>
+        </section>
+    </main>
+
+    <script src="signup.js"></script>
+</body>
+</html>
